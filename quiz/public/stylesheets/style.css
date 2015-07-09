@@ -10,3 +10,9 @@ header, nav, section { background: #eee; text-align: center;}
 footer { background: #eee; text-align: center;}
 nav span { margin: 0px 10px 0px 0px;}
 
+.author { display: table;}
+    .author__caption {display: table-caption; padding: 8px; background: #dddddd}
+    .author__photo {display: table-cell; vertical-align: top; padding: 10px}
+    .author__name {text-align: left; padding: 5px 0 0 5px}
+    .author__email {text-align: left; padding: 0 0 10px 5px}
+    .author__info {text-align: justify;padding: 5px}
